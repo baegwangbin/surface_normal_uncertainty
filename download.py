@@ -32,6 +32,8 @@ def download_file_from_google_drive(id, destination):
 
 
 if __name__ == "__main__":
+    os.makedirs('./checkpoints', exist_ok=True)
+    os.makedirs('./examples', exist_ok=True)
 
     if not os.path.exists('./checkpoints/nyu.pt'):
         print('downloading the model trained on NYUv2...')
