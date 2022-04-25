@@ -33,6 +33,7 @@ Download the pre-trained model weights and sample images.
 ```python
 python download.py && cd examples && unzip examples.zip && cd ..
 ```
+[25 Apr 2022] ***The above script does not work anymore. Please download the models and example images directly from [this link](https://drive.google.com/drive/folders/1Ku25Am69h_HrbtcCptXn4aetjo7sB33F?usp=sharing), and unzip them under `./checkpoints/` and `./examples`.***
 
 Running the above will download 
 * `./checkpoints/nyu.pt` (model trained on NYUv2)
