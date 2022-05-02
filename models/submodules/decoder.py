@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from models.submodules.submodules import Conv2d, UpSampleBN, UpSampleGN, norm_normalize, sample_points
+from models.submodules.submodules import UpSampleBN, UpSampleGN, norm_normalize, sample_points
 
 
 class Decoder(nn.Module):

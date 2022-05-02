@@ -82,7 +82,7 @@ if __name__ == '__main__':
     parser.add_argument('--imgs_dir', default='./examples', type=str)
 
     # read arguments from txt file
-    if sys.argv.__len__() == 2:
+    if sys.argv.__len__() == 2 and '.txt' in sys.argv[1]:
         arg_filename_with_prefix = '@' + sys.argv[1]
         args = parser.parse_args([arg_filename_with_prefix])
     else:
